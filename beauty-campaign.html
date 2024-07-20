@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Livena Lesmono | Beauty Campaign</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar"> <!-- This part is added -->
+        <div class="hamburger" onclick="toggleOverlay()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="center-text"> <a href="index.html" style="text-decoration: none;color: #000;">BEAUTY HAS NO BORDER</a></div>
+
+        <div class="logo">
+            <a href="index.html">
+            <img src="Images/logo crop.png" alt="logo" height="60">
+            </a>
+        </div>
+    </div> <!-- End of navbar -->
+
+    <div class="main-content">
+        <div class="image-with-text">
+            <a href="beauty campaign content mahana.html">
+            <img src="Images/mahana_cover.jpg" alt="mahana_cover">
+            </a>
+            <div class="overlay-text-beauty">MAHANA</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-with-text">
+            <a href="beauty campaign content dreame.html">
+            <img src="Images/dreame_cover.jpg" alt="dreame_cover">
+            </a>
+            <div class="overlay-text-beauty">DREAME</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-with-text">
+            <a href="beauty campaign content skinda.html">
+            <img src="Images/skinda_cover.jpg" alt="skinda_cover">
+            </a>
+            <div class="overlay-text-beauty">SKINDA</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-with-text">
+            <a href="beauty campaign content deba.html">
+            <img src="Images/deba_cover.jpg" alt="deba_cover">
+            </a>
+            <div class="overlay-text-beauty">DEBA</div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="overlay-text">WORKS</div>
+        <div class="overlay-subtext">
+            <div><a href="beauty-campaign.html" style="text-decoration: none;color: #000;">BEAUTY CAMPAIGN</a></div>
+            <div><a href="fashion-campaign.html" style="text-decoration: none;color: #000;">FASHION CAMPAIGN</a></div>
+            <div><a href="fashion-catalogue.html" style="text-decoration: none;color: #000;">FASHION CATALOGUE</a></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="overlay-text">INQUIRY</div>
+        <div class="overlay-subtext">
+            <div><a href="tel:+31645777888" style="text-decoration: none;color: #000;">CONTACT</a></div>
+            <div><a href="https://instagram.com/f1" style="text-decoration: none;color: #000;">INSTAGRAM</a></div>
+            <div><a href="mailto:verastefanylu@gmail.com" style="text-decoration: none;color: #000;">EMAIL</a></div>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleOverlay() {
+            var overlay = document.getElementById('overlay');
+            var hamburger = document.querySelector('.hamburger');
+            overlay.classList.toggle('active');
+            hamburger.classList.toggle('active');
+
+            document.body.classList.toggle('no-scroll');
+        }
+    </script>
+    
+
+    <footer>
+        <!-- Footer content if needed -->
+    </footer>
+</body>
+</html>
