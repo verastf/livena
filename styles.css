@@ -203,6 +203,8 @@ body {
 .image-with-text {
     position: relative;
     display: inline-block;
+    width: 100%; /* Aligns image container width with navbar padding */
+    margin: 0 auto;
 }
 
 .overlay-text-beauty {
