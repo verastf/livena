@@ -278,7 +278,13 @@ body {
     display: flex;
     align-items: center;
 }
-
+.carousel-container { /* Added padding for carousel container */
+    padding-top: 48px;
+}
+.carousel-item img { /* Added styles for carousel images */
+    height: 1200px; /* Set a fixed height for carousel images */
+    object-fit: cover; /* Ensure images cover the space without distortion */
+}
 .footer-container a {
     margin-left: 8px;
     font-size: 14px;
