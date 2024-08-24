@@ -170,10 +170,6 @@ body {
     visibility: visible;
 }
 
-body.no-scroll {
-    overflow: hidden; /* Disable scrolling */
-}
-
 .overlay-text {
     font-family: Bookmania;
     font-weight: regular;
